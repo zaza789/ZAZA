@@ -182,8 +182,8 @@ plot.show()
 
 
 #calculate correlations between real-valued attributes
-dataAttribute2 = rocksVMines.iloc[1,0:60]
-dataAttribute3 = rocksVMines.iloc[2,0:60]
+dataAttribute2 = rocksVMines.iloc[0:208,1]
+dataAttribute3 = rocksVMines.iloc[0:208,2]
 
 plot.scatter(dataAttribute2, dataAttribute3)
 
@@ -191,7 +191,7 @@ plot.xlabel("2nd Attribute")
 plot.ylabel(("3rd Attribute"))
 plot.show()
 
-dataAttribute21 = rocksVMines.iloc[20,0:60]
+dataAttribute21 = rocksVMines.iloc[0:208,35]
 
 plot.scatter(dataAttribute2, dataAttribute21)
 
