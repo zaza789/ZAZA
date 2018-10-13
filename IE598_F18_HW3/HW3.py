@@ -1,4 +1,3 @@
-__author__ = 'mike_bowles'
 from urllib.request import urlopen
 import sys
 import numpy as np
